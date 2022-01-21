@@ -1,0 +1,92 @@
+.back {
+	margin-bottom: 60px;
+}
+
+.top-title {
+	font-weight: 600;
+	font-size: 24px;
+
+	color: #141111;
+
+	margin-bottom: 20px;
+}
+
+.option {
+	margin-bottom: 20px;
+}
+
+.form-option {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.add {
+	margin-bottom: 60px;
+}
+
+.add .top-title {
+	margin: 0;
+}
+.add__first {
+	margin-bottom: 10px;
+}
+
+.add__first,
+.add__sec {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.label-toggle {
+	position: relative;
+
+	display: block;
+	width: 39px;
+	height: 18px;
+	border-radius: 11px;
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #c2c2c2;
+
+	transition: all 0.3s;
+}
+
+.circle {
+	position: absolute;
+	top: calc(50% - 9px);
+	left: 0px;
+
+	display: block;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background: #fffdfd;
+	border: 1px solid #fcdc38;
+	transition: all 0.3s;
+}
+
+#toggle:checked ~ .label-toggle {
+	background-color: #fcdc38;
+}
+
+#toggle:checked ~ .label-toggle .circle {
+	left: 19px;
+}
+
+#toggle {
+	display: none;
+}
+
+.total {
+	margin-bottom: 40px;
+}
+
+.total__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
